@@ -9,7 +9,7 @@ std::string tm_to_readable_time(tm ctx);
 static std::time_t string_to_timet(std::string timestamp);
 static std::tm timet_to_tm(time_t timestamp);
 const std::string compilation_date = (std::string)skCrypt(__DATE__);
-const std::string compilation_time = (std::string)skCrypt(__TIME__);
+const std::string compilation_time = (std::string)skCrypt(__TIME__);//
 
 
 void DrawESP();
